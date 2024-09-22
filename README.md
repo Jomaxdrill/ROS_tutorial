@@ -15,7 +15,7 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist
 ## INSTRUCTIONS
 
-# EXECUTION
+## EXECUTION
 -Verify you have ROS2 galatic distribution installed and also CMAKE necessary installations 
 On command line run ```echo $ROS_DISTRO```
 -Install previously the following packages and any additional in your vlinux distribution running on the terminal the command:
@@ -58,6 +58,11 @@ source install/setup.bash
 ```sh
 ros2 run tb_control tb_openLoop
 ```
+The following command runs the script tb_openLoop.py located in the tb_control folder.
 # Video links
+### TurtleBot3 tele operation 
+https://drive.google.com/file/d/1CEXyWKnralPQkr05YcF0xgmMEfWInOpl/view?usp=sharing
+### TurtleBot3 open loop controller
+https://drive.google.com/file/d/1TwJvgT9ib3v8p0MDkzqubbVuIIVubRgi/view?usp=sharing
 
 
