@@ -59,12 +59,12 @@ source install/setup.bash
 -Run the following script in other terminal and follow instructions in terminal while gazebo is open.
 ```sh
 source /opt/ros/galactic/setup.bash
-ros2 run turtlebot3_teleop teleop_keyboard
+ros2 run turtlebot3_teleop teleop_keyboard.py
 ```
 ## EXCECUTION OPEN LOOP CONTROLLER
 -Run the following script and see what displays in gazebo
 ```sh
-ros2 run tb_control tb_openLoop
+ros2 run tb_control tb_openLoop.py
 ```
 The following command runs the script tb_openLoop.py located in the tb_control folder. You will see the robot exceuting two movements or scenarios. One the velocity is constant. 
 As soon the first scenario is finished the second scenario begins accelerating until reaching a top speed, maintaining constant top speed and after a while decreasing speed to reach zero.
